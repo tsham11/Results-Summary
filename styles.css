@@ -207,9 +207,6 @@ button:hover {
   }
 
   .result {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     width: 100vw;
     height: 356px;
     border-radius: 0px 0px 32px 32px;
@@ -248,7 +245,6 @@ button:hover {
     margin: 8px 58px 40px;
   }
 
-  /* results summary */
   .summary {
     width: 100vw;
     height: 453px;
@@ -285,7 +281,6 @@ button:hover {
     width: 38px;
   }
 
-  /* button */
   button {
     width: 315px;
     height: 56px;
