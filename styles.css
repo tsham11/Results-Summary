@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  width: 1440px;
+  height: 1080px;
+  justify-content: center;
+  align-items: center;
+  background-color: #ecf2ff;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.card {
+  display: flex;
+  width: 736px;
+  height: 512px;
+  background-color: #fff;
+  border-radius: 32px;
+  box-shadow: 0px 30px 60px 0px rgba(61, 108, 236, 0.15);
+  margin: 0 352px;
+}
+
+.result {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 368px;
+  height: 512px;
+  border-radius: 32px;
+  background: var(--gradient-1,
+      linear-gradient(180deg, #75f 0%, #6943ff 0.01%, #2f2ce9 100%));
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 35px;
+  margin-bottom: 28px;
+  background: var(--gradient-2,
+      linear-gradient(180deg,
+        #4d21c9 0%,
+        rgba(37, 33, 201, 0) 100%,
+        rgba(37, 33, 201, 0) 100%));
+}
+
+h1 {
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+#totalS {
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 72px;
+}
+
+h2 {
+  margin-top: 38px;
+}
+
+#res {
+  color: var(--light-blue, #cac9ff);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h5 {
+  color: var(--light-blue, #cac9ff);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+p {
+  width: 260px;
+  color: var(--light-blue, #cac9ff);
+  font-size: 18px;
+  text-align: center;
+  margin: 14px 54px 55px;
+}
+
+/* results summary */
+.summary {
+  width: 368px;
+  height: 512px;
+  margin-left: 40px;
+}
+
+#sum {
+  margin-bottom: 28px;
+}
+
+.skills {
+  width: 288px;
+  height: 56px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  justify-content: space-between;
+}
+
+.skills div {
+  display: flex;
+}
+
+/* Scors of each skill */
+#reaction {
+  color: var(--red, #f55);
+  background: var(--red-95-white,
+      linear-gradient(0deg,
+        rgba(255, 255, 255, 0.95) 0%,
+        rgba(255, 255, 255, 0.95) 100%),
+      #f55);
+}
+
+#memory {
+  color: var(--yellow, #ffb21e);
+  background: var(--yellow-95-white,
+      linear-gradient(0deg,
+        rgba(255, 255, 255, 0.95) 0%,
+        rgba(255, 255, 255, 0.95) 100%),
+      #ffb21e);
+}
+
+#verbal {
+  color: var(--green, #00bb8f);
+  background: var(--green-95-white,
+      linear-gradient(0deg,
+        rgba(255, 255, 255, 0.95) 0%,
+        rgba(255, 255, 255, 0.95) 100%),
+      #00bb8f);
+}
+
+#visual {
+  color: var(--blue, #1125d6);
+  background: var(--blue-95-white,
+      linear-gradient(0deg,
+        rgba(255, 255, 255, 0.95) 0%,
+        rgba(255, 255, 255, 0.95) 100%),
+      #1125d6);
+}
+
+img {
+  margin-left: 16px;
+  margin-right: 12px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.scr {
+  color: var(--dark-navy, #303b59);
+  font-size: 18px;
+  font-weight: 700;
+  text-align: right;
+  margin-right: 16px;
+  width: 72px;
+}
+
+span {
+  width: 43px;
+  opacity: 0.5;
+  margin-left: 8px;
+}
+
+/* button */
+button {
+  width: 288px;
+  height: 56px;
+  border: none;
+  border-radius: 128px;
+  background: var(--dark-navy, #303b59);
+  color: var(--white, #fff);
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+button:hover {
+  background: var(--gradient-1, linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%));
+}
