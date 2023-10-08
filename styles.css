@@ -195,3 +195,7 @@ button {
 button:hover {
   background: var(--gradient-1, linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%));
 }
+
+@media screen and (max-width:375px) {
+  
+}
