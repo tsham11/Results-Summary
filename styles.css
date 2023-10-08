@@ -21,7 +21,7 @@ body {
   background-color: #fff;
   border-radius: 32px;
   box-shadow: 0px 30px 60px 0px rgba(61, 108, 236, 0.15);
-  margin: 0 352px;
+  gap: 40px;
 }
 
 .result {
@@ -94,12 +94,12 @@ p {
 
 /* results summary */
 .summary {
-  width: 368px;
+  width: 288px;
   height: 512px;
-  margin-left: 40px;
 }
 
 #sum {
+  font-size: 24px;
   margin-bottom: 28px;
 }
 
@@ -196,6 +196,99 @@ button:hover {
   background: var(--gradient-1, linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%));
 }
 
-@media screen and (max-width:375px) {
-  
+@media screen and (max-width:668px) {
+  .card {
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    border-radius: 0;
+    box-shadow: none;
+    gap: 24px;
+  }
+
+  .result {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 356px;
+    border-radius: 0px 0px 32px 32px;
+    box-shadow: 0px 30px 60px 0px rgba(61, 108, 236, 0.15);
+  }
+
+  .circle {
+    width: 140px;
+    height: 140px;
+    margin: 24px 0;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  #totalS {
+    font-size: 56px;
+  }
+
+  h2 {
+    margin-top: 24px;
+  }
+
+  #res {
+    font-size: 18px;
+  }
+
+  h5 {
+    font-size: 16px;
+    opacity: 0.5168;
+  }
+
+  p {
+    font-size: 16px;
+    margin: 8px 58px 40px;
+  }
+
+  /* results summary */
+  .summary {
+    width: 100vw;
+    height: 453px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #sum {
+    font-size: 24px;
+    margin: 0 0 24px;
+  }
+
+  .skills {
+    width: 315px;
+    height: 56px;
+  }
+
+  img {
+    margin-left: 16px;
+    margin-right: 12px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  .scr {
+    font-size: 16px;
+    width: 64px;
+  }
+
+  span {
+    width: 38px;
+  }
+
+  /* button */
+  button {
+    width: 315px;
+    height: 56px;
+    margin: 24px 0 35px;
+  }
 }
